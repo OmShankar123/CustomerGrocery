@@ -10,31 +10,41 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		21D8898B434143ADAFC84F24 /* Okra-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C9024F68764C4F569F32279E /* Okra-Bold.ttf */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
-		7E018ADD3D744AB2BF52CBBD /* Inter.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D8E8BEBC75647B79C5727D2 /* Inter.ttf */; };
+		67E95E710CE54E2DB08083DD /* Okra-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DDEB84CCD1454707B2692979 /* Okra-ExtraBold.ttf */; };
+		7738D8B4136C63CEE71281E1 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 638A88223E9546C14AA6F60C /* PrivacyInfo.xcprivacy */; };
+		963144BE35134296BDEE1C9E /* Inter.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AEB0D415B95345E795D35772 /* Inter.ttf */; };
 		96905EF65AED1B983A6B3ABC /* libPods-Customer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EEBF8E8E6FB1BC6CAF49B5 /* libPods-Customer.a */; };
 		B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */; };
+		B3F94BB506174946A5FEA546 /* Okra-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0F510CA2C7F44B3BF95DC84 /* Okra-Medium.ttf */; };
+		B4FCA320E644456E8736AF96 /* Okra-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09F3B10EE1974BBC899A6F85 /* Okra-Regular.ttf */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
-		DA100B92F0A4425E985783D8 /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E35C887D2E84B2083F9E30D /* noop-file.swift */; };
-		FF063FC33CC8609101234E49 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 802F68D7ABFEF3C84DBA7CEA /* PrivacyInfo.xcprivacy */; };
+		DD34B236AAFA433E838F7E47 /* Okra-MediumLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E14F35A2F854E318CFE1378 /* Okra-MediumLight.ttf */; };
+		DD89D763A7D74860935BC1B3 /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3167C587A14FCDAD3CB61C /* noop-file.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09F3B10EE1974BBC899A6F85 /* Okra-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Okra-Regular.ttf"; path = "../src/assets/fonts/Okra-Regular.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* Customer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Customer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Customer/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = Customer/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Customer/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Customer/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Customer/main.m; sourceTree = "<group>"; };
-		1D8E8BEBC75647B79C5727D2 /* Inter.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Inter.ttf; path = ../assets/fonts/Inter.ttf; sourceTree = "<group>"; };
-		4E35C887D2E84B2083F9E30D /* noop-file.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "noop-file.swift"; path = "Customer/noop-file.swift"; sourceTree = "<group>"; };
 		58EEBF8E8E6FB1BC6CAF49B5 /* libPods-Customer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Customer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B3167C587A14FCDAD3CB61C /* noop-file.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "noop-file.swift"; path = "Customer/noop-file.swift"; sourceTree = "<group>"; };
+		638A88223E9546C14AA6F60C /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Customer/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		6C2E3173556A471DD304B334 /* Pods-Customer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Customer.debug.xcconfig"; path = "Target Support Files/Pods-Customer/Pods-Customer.debug.xcconfig"; sourceTree = "<group>"; };
 		7A4D352CD337FB3A3BF06240 /* Pods-Customer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Customer.release.xcconfig"; path = "Target Support Files/Pods-Customer/Pods-Customer.release.xcconfig"; sourceTree = "<group>"; };
-		802F68D7ABFEF3C84DBA7CEA /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Customer/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		8E14F35A2F854E318CFE1378 /* Okra-MediumLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Okra-MediumLight.ttf"; path = "../src/assets/fonts/Okra-MediumLight.ttf"; sourceTree = "<group>"; };
+		9A4B3830FA7E4587AC9EF96F /* Customer-Bridging-Header.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "Customer-Bridging-Header.h"; path = "Customer/Customer-Bridging-Header.h"; sourceTree = "<group>"; };
+		A0F510CA2C7F44B3BF95DC84 /* Okra-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Okra-Medium.ttf"; path = "../src/assets/fonts/Okra-Medium.ttf"; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = Customer/SplashScreen.storyboard; sourceTree = "<group>"; };
-		B821332638BF4F14A39ECD6D /* Customer-Bridging-Header.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "Customer-Bridging-Header.h"; path = "Customer/Customer-Bridging-Header.h"; sourceTree = "<group>"; };
+		AEB0D415B95345E795D35772 /* Inter.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Inter.ttf; path = ../assets/fonts/Inter.ttf; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
+		C9024F68764C4F569F32279E /* Okra-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Okra-Bold.ttf"; path = "../src/assets/fonts/Okra-Bold.ttf"; sourceTree = "<group>"; };
+		DDEB84CCD1454707B2692979 /* Okra-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Okra-ExtraBold.ttf"; path = "../src/assets/fonts/Okra-ExtraBold.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-Customer/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,9 +71,9 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
-				4E35C887D2E84B2083F9E30D /* noop-file.swift */,
-				B821332638BF4F14A39ECD6D /* Customer-Bridging-Header.h */,
-				802F68D7ABFEF3C84DBA7CEA /* PrivacyInfo.xcprivacy */,
+				5B3167C587A14FCDAD3CB61C /* noop-file.swift */,
+				9A4B3830FA7E4587AC9EF96F /* Customer-Bridging-Header.h */,
+				638A88223E9546C14AA6F60C /* PrivacyInfo.xcprivacy */,
 			);
 			name = Customer;
 			sourceTree = "<group>";
@@ -93,7 +103,7 @@
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				D65327D7A22EEC0BE12398D9 /* Pods */,
 				D7E4C46ADA2E9064B798F356 /* ExpoModulesProviders */,
-				98CE546DB778495985728D53 /* Resources */,
+				DA5AC87A52454173B464AE5D /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -114,15 +124,6 @@
 				FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */,
 			);
 			name = Customer;
-			sourceTree = "<group>";
-		};
-		98CE546DB778495985728D53 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				1D8E8BEBC75647B79C5727D2 /* Inter.ttf */,
-			);
-			name = Resources;
-			path = "";
 			sourceTree = "<group>";
 		};
 		BB2F792B24A3F905000567C9 /* Supporting */ = {
@@ -151,6 +152,20 @@
 			name = ExpoModulesProviders;
 			sourceTree = "<group>";
 		};
+		DA5AC87A52454173B464AE5D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C9024F68764C4F569F32279E /* Okra-Bold.ttf */,
+				DDEB84CCD1454707B2692979 /* Okra-ExtraBold.ttf */,
+				A0F510CA2C7F44B3BF95DC84 /* Okra-Medium.ttf */,
+				8E14F35A2F854E318CFE1378 /* Okra-MediumLight.ttf */,
+				09F3B10EE1974BBC899A6F85 /* Okra-Regular.ttf */,
+				AEB0D415B95345E795D35772 /* Inter.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,13 +174,13 @@
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Customer" */;
 			buildPhases = (
 				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
-				85726EF28048E1F2E24B1892 /* [Expo] Configure project */,
+				369A586C1AD6CD6C4961F3A0 /* [Expo] Configure project */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */,
-				334113E1A104B8598C36F293 /* [CP] Embed Pods Frameworks */,
+				6B5E7B7AC402E98DC60ACECF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -215,8 +230,13 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
-				7E018ADD3D744AB2BF52CBBD /* Inter.ttf in Resources */,
-				FF063FC33CC8609101234E49 /* PrivacyInfo.xcprivacy in Resources */,
+				21D8898B434143ADAFC84F24 /* Okra-Bold.ttf in Resources */,
+				67E95E710CE54E2DB08083DD /* Okra-ExtraBold.ttf in Resources */,
+				B3F94BB506174946A5FEA546 /* Okra-Medium.ttf in Resources */,
+				DD34B236AAFA433E838F7E47 /* Okra-MediumLight.ttf in Resources */,
+				B4FCA320E644456E8736AF96 /* Okra-Regular.ttf in Resources */,
+				963144BE35134296BDEE1C9E /* Inter.ttf in Resources */,
+				7738D8B4136C63CEE71281E1 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +280,26 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		334113E1A104B8598C36F293 /* [CP] Embed Pods Frameworks */ = {
+		369A586C1AD6CD6C4961F3A0 /* [Expo] Configure project */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[Expo] Configure project";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-Customer/expo-configure-project.sh\"\n";
+		};
+		6B5E7B7AC402E98DC60ACECF /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -320,25 +359,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Customer/Pods-Customer-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		85726EF28048E1F2E24B1892 /* [Expo] Configure project */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "[Expo] Configure project";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-Customer/expo-configure-project.sh\"\n";
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -349,7 +369,7 @@
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */,
-				DA100B92F0A4425E985783D8 /* noop-file.swift in Sources */,
+				DD89D763A7D74860935BC1B3 /* noop-file.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

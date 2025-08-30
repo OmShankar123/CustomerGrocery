@@ -32,6 +32,11 @@ SplashScreen.setOptions({
 });
 
 export default function RootLayout() {
+  const [fontsLoaded] = require('@/assets/useAppFonts').useAppFonts();
+  if (!fontsLoaded) {
+    // Optionally show a splash/loading screen
+    return null;
+  }
   return (
     <Providers>
       <Stack>

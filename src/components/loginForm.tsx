@@ -41,14 +41,26 @@ export const LoginForm = ({ onSubmit = () => {} }: LoginFormProps) => {
         <View className="items-center justify-center">
           <Text
             testID="form-title"
-            className="pb-6 text-center text-4xl font-bold"
+            className="pb-2 text-center text-4xl font-bold"
+            style={{ fontFamily: 'inter' }}
           >
-            Sign In
+            Sign In (Default Font)
           </Text>
-
-          <Text className="mb-6 max-w-xs text-center text-gray-500">
-            Welcome! 👋 This is a demo login screen! Feel free to use any email
-            and password to sign in and try it out.
+          <Text
+            testID="form-title-custom"
+            className="pb-6 text-center text-4xl font-bold"
+            style={{ fontFamily: 'Okra-Bold' }}
+          >
+            Sign In (Okra-Bold)
+          </Text>
+          <Text className="mb-2 max-w-xs text-center text-gray-500" style={{}}>
+            Welcome! 👋 This is a demo login screen! (Default Font)
+          </Text>
+          <Text
+            className="mb-6 max-w-xs text-center text-gray-500"
+            style={{ fontFamily: 'Okra-Regular' }}
+          >
+            Welcome! 👋 This is a demo login screen! (Okra-Regular)
           </Text>
         </View>
 
