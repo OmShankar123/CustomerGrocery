@@ -26,7 +26,7 @@
         <category android:name="android.intent.category.BROWSABLE"/>
         <data android:scheme="Customer"/>
         <data android:scheme="com.customer.development"/>
-        <data android:scheme="exp+itechapp"/>
+        <data android:scheme="exp+customerapp"/>
       </intent-filter>
     </activity>
   </application>
