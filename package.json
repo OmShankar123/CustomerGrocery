@@ -74,7 +74,6 @@
     "react-native-flash-message": "^0.4.2",
     "react-native-gesture-handler": "~2.20.2",
     "react-native-keyboard-controller": "^1.13.2",
-    "react-native-maps": "^1.26.14",
     "react-native-mmkv": "~3.1.0",
     "react-native-reanimated": "~3.16.7",
     "react-native-reanimated-carousel": "^4.0.3",
