@@ -1,4 +1,6 @@
 /* eslint-disable max-lines-per-function */
+import 'dotenv/config';
+
 import type { ConfigContext, ExpoConfig } from '@expo/config';
 import type { AppIconBadgeConfig } from 'app-icon-badge/types';
 
@@ -41,16 +43,23 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     bundleIdentifier: Env.BUNDLE_ID,
     config: {
       usesNonExemptEncryption: false, // Avoid the export compliance warning on the app store
+      googleMapsApiKey: process.env.GOOGLE_MAPS_API_KEY,
     },
   },
   experiments: {
     typedRoutes: true,
   },
   android: {
+    config: {
+      googleMaps: {
+        apiKey: process.env.GOOGLE_MAPS_API_KEY,
+      },
+    },
     adaptiveIcon: {
       foregroundImage: './assets/adaptive-icon.png',
       backgroundColor: '#2E3C4B',
     },
+
     package: Env.PACKAGE,
   },
   web: {

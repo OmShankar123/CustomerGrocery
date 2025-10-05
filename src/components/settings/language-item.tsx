@@ -1,7 +1,7 @@
 import * as React from 'react';
 
-import type { OptionType } from '@/components/ui';
-import { Options, useModal } from '@/components/ui';
+import type { OptionType } from '@/components/global';
+import { Options, useModal } from '@/components/global';
 import { useSelectedLanguage } from '@/lib';
 import { translate } from '@/lib';
 import type { Language } from '@/lib/i18n/resources';

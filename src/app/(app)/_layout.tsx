@@ -2,12 +2,12 @@
 import { Link, Redirect, SplashScreen, Tabs } from 'expo-router';
 import React, { useCallback, useEffect } from 'react';
 
-import { Pressable, Text } from '@/components/ui';
+import { Pressable, Text } from '@/components/global';
 import {
   Feed as FeedIcon,
   Settings as SettingsIcon,
   Style as StyleIcon,
-} from '@/components/ui/icons';
+} from '@/components/global/icons';
 import { useAuth, useIsFirstTime } from '@/lib';
 
 export default function TabLayout() {
@@ -24,12 +24,14 @@ export default function TabLayout() {
     }
   }, [hideSplash, status]);
 
-  if (isFirstTime) {
-    return <Redirect href="/onboarding" />;
-  }
+  // if (isFirstTime) {
+  //   return <Redirect href="/onboarding" />;
+  // }
   if (status === 'signOut') {
-    return <Redirect href="/login" />;
+    return <Redirect href="/features/auth/CustomerLoginScreen" />;
   }
+
+  console.log('Auth status:', status);
   return (
     <Tabs>
       <Tabs.Screen
@@ -68,7 +70,7 @@ const CreateNewPostLink = () => {
   return (
     <Link href="/feed/add-post" asChild>
       <Pressable>
-        <Text className="px-3 text-primary-300">Create</Text>
+        <Text className="text-primary-300 px-3">Create</Text>
       </Pressable>
     </Link>
   );

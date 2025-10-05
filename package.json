@@ -38,7 +38,8 @@
     "test:ci": "pnpm run test --coverage",
     "test:watch": "pnpm run test --watch",
     "install-maestro": "curl -Ls 'https://get.maestro.mobile.dev' | bash",
-    "e2e-test": "maestro test .maestro/ -e APP_ID=com.itechapp.development"
+    "e2e-test": "maestro test .maestro/ -e APP_ID=com.itechapp.development",
+    "pod-install": "cd ios && RCT_NEW_ARCH_ENABLED=1 pod install"
   },
   "dependencies": {
     "@expo/metro-runtime": "^4.0.1",
@@ -73,12 +74,15 @@
     "react-native-flash-message": "^0.4.2",
     "react-native-gesture-handler": "~2.20.2",
     "react-native-keyboard-controller": "^1.13.2",
+    "react-native-maps": "^1.26.14",
     "react-native-mmkv": "~3.1.0",
     "react-native-reanimated": "~3.16.7",
+    "react-native-reanimated-carousel": "^4.0.3",
     "react-native-restart": "0.0.27",
     "react-native-safe-area-context": "4.12.0",
     "react-native-screens": "^4.4.0",
     "react-native-svg": "~15.8.0",
+    "react-native-svg-transformer": "^1.5.1",
     "react-native-web": "~0.19.13",
     "react-query-kit": "^3.3.0",
     "tailwind-variants": "^0.2.1",

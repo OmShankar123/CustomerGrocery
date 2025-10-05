@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Text, View } from '@/components/ui';
+import { Text, View } from '@/components/global';
 import type { TxKeyPath } from '@/lib';
 
 type Props = {

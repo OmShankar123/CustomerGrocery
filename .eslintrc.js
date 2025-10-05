@@ -15,15 +15,17 @@ module.exports = {
     project: './tsconfig.json',
   },
   rules: {
+    'unused-imports/no-unused-vars': 'off',
     'prettier/prettier': 'warn',
-    'unicorn/filename-case': [
-      'error',
-      {
-        case: 'camelCase',
-        ignore: ['/android', '/ios'],
-      },
-    ],
-    'max-params': ['error', 3], // Limit the number of parameters in a function to use object instead
+    'unicorn/filename-case': 'off',
+    // 'unicorn/filename-case': [
+    //   'error',
+    //   {
+    //     case: 'snakeCase',
+    //     ignore: ['/android', '/ios'],
+    //   },
+    // ],
+    // 'max-params': ['error', 3], // Limit the number of parameters in a function to use object instead
     'max-lines-per-function': ['error', 100],
     'react/display-name': 'off',
     'react/no-inline-styles': 'off',
@@ -33,7 +35,7 @@ module.exports = {
     '@typescript-eslint/consistent-type-imports': [
       'warn',
       {
-        prefer: 'type-imports',
+        // prefer: 'type-imports',
         fixStyle: 'inline-type-imports',
         disallowTypeAnnotations: true,
       },
@@ -51,14 +53,14 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': 'off',
     'tailwindcss/no-custom-classname': 'off',
     'unused-imports/no-unused-imports': 'error',
-    'unused-imports/no-unused-vars': [
-      'error',
-      {
-        argsIgnorePattern: '^_',
-        varsIgnorePattern: '^_',
-        caughtErrorsIgnorePattern: '^_',
-      },
-    ],
+    // 'unused-imports/no-unused-vars': [
+    //   'error',
+    //   {
+    //     argsIgnorePattern: '^_',
+    //     varsIgnorePattern: '^_',
+    //     caughtErrorsIgnorePattern: '^_',
+    //   },
+    // ],
   },
   overrides: [
     // Configuration for  translations files (i18next)

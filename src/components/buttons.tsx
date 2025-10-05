@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Button, View } from '@/components/ui';
+import { Button, View } from '@/components/global';
 
 import { Title } from './title';
 

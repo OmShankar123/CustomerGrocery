@@ -7,7 +7,7 @@ import {
   FocusAwareStatusBar,
   Text,
   View,
-} from '@/components/ui';
+} from '@/components/global';
 
 export default function Post() {
   const local = useLocalSearchParams<{ id: string }>();

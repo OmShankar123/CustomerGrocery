@@ -11,7 +11,7 @@ import {
   ControlledInput,
   showErrorMessage,
   View,
-} from '@/components/ui';
+} from '@/components/global';
 
 const schema = z.object({
   title: z.string().min(10),

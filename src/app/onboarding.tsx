@@ -8,7 +8,7 @@ import {
   SafeAreaView,
   Text,
   View,
-} from '@/components/ui';
+} from '@/components/global';
 import { useIsFirstTime } from '@/lib/hooks';
 export default function Onboarding() {
   const [_, setIsFirstTime] = useIsFirstTime();

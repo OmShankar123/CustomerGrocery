@@ -5,7 +5,7 @@ import { useForm } from 'react-hook-form';
 import { KeyboardAvoidingView } from 'react-native-keyboard-controller';
 import * as z from 'zod';
 
-import { Button, ControlledInput, Text, View } from '@/components/ui';
+import { Button, ControlledInput, Text, View } from '@/components/global';
 
 const schema = z.object({
   name: z.string().optional(),
